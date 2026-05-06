@@ -1,5 +1,7 @@
 # Clicker - Universal Autoclicker
 
+# PLEASE NOTE THIS MIGHT BE OUTDATED BECAUSE OF BEING A FORK!!
+
 A cross-platform autoclicker built with Rust, designed for any game or application. Built using the [Iced](https://github.com/iced-rs/iced) GUI framework and [Enigo](https://github.com/enigo-rs/enigo) for precise mouse emulation.
 
 > ⚠️ Use this autoclicker responsibly and ethically. Many online games and services have rules against automation tools. Always check and comply with the terms of service and rules of any game or application before using automation software. This tool should only be used where explicitly permitted or in offline/local environments.
