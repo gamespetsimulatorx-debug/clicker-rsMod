@@ -1,5 +1,5 @@
-pub const APP_TITLE: &str = "Clicker";
-pub const APP_SUBTITLE: &str = "Rust-powered Universal Autoclicker";
+pub const APP_TITLE: &str = "ClickerX Fork";
+pub const APP_SUBTITLE: &str = "Modern Rust Autoclicker";
 
 pub const STATUS_READY: &str = "Ready to start - Set interval and click Start";
 pub const STATUS_RUNNING: &str = "Autoclicker is running...";
@@ -23,26 +23,26 @@ pub const UI_INTERVAL_INVALID_TEXT: &str = VALIDATION_INVALID;
 pub const UI_HOTKEY_VALID_TEXT: &str = VALIDATION_VALID;
 pub const UI_HOTKEY_INVALID_TEXT: &str = VALIDATION_INVALID;
 
-pub const FONT_SIZE_TITLE: u16 = 32;
-pub const FONT_SIZE_SUBTITLE: u16 = 16;
-pub const FONT_SIZE_SMALL: u16 = 12;
+pub const FONT_SIZE_TITLE: u16 = 38;
+pub const FONT_SIZE_SUBTITLE: u16 = 18;
+pub const FONT_SIZE_SMALL: u16 = 13;
 
 pub const UI_TITLE_SIZE: u16 = FONT_SIZE_TITLE;
 pub const UI_SUBTITLE_SIZE: u16 = FONT_SIZE_SUBTITLE;
 pub const UI_NOTE_SIZE: u16 = FONT_SIZE_SMALL;
 pub const UI_VALIDATION_SIZE: u16 = FONT_SIZE_SMALL;
 
-pub const UI_SPACING_LARGE: u16 = 30; // Major sections
-pub const UI_SPACING_MEDIUM: u16 = 15; // Between form groups
-pub const UI_SPACING_SMALL: u16 = 8; // Within form elements
-pub const UI_SPACING_TINY: u16 = 5; // Icon-text spacing
+pub const UI_SPACING_LARGE: u16 = 24;
+pub const UI_SPACING_MEDIUM: u16 = 14;
+pub const UI_SPACING_SMALL: u16 = 10;
+pub const UI_SPACING_TINY: u16 = 6;
 
-pub const UI_WINDOW_WIDTH: f32 = 400.0;
-pub const UI_WINDOW_HEIGHT: f32 = 750.0;
-pub const UI_INPUT_WIDTH: f32 = 100.0;
-pub const UI_LABEL_WIDTH: f32 = 140.0;
-pub const UI_VALIDATION_WIDTH: f32 = 80.0;
-pub const UI_CONTAINER_PADDING: u16 = 10;
+pub const UI_WINDOW_WIDTH: f32 = 520.0;
+pub const UI_WINDOW_HEIGHT: f32 = 680.0;
+pub const UI_INPUT_WIDTH: f32 = 160.0;
+pub const UI_LABEL_WIDTH: f32 = 180.0;
+pub const UI_VALIDATION_WIDTH: f32 = 100.0;
+pub const UI_CONTAINER_PADDING: u16 = 18;
 
 pub const UI_BUTTON_START: &str = "Start";
 pub const UI_BUTTON_STOP: &str = "Stop";
@@ -63,9 +63,9 @@ pub const UI_MAX_DELAY_PLACEHOLDER: &str = "500";
 pub const UI_HOTKEY_PLACEHOLDER: &str = "F6";
 
 pub const DEFAULT_INTERVAL: &str = "1000";
-pub const DEFAULT_CPS: f64 = 11.0;
-pub const DEFAULT_MIN_DELAY: u64 = 60;
-pub const DEFAULT_MAX_DELAY: u64 = 110;
+pub const DEFAULT_CPS: f64 = 14.5;
+pub const DEFAULT_MIN_DELAY: u64 = 45;
+pub const DEFAULT_MAX_DELAY: u64 = 85;
 pub const DEFAULT_HOTKEY: &str = "\\";
 pub const HOTKEY_ENABLED_DEFAULT: bool = true;
 
@@ -79,6 +79,11 @@ pub const WEBSITE_URL: &str = "https://clicker.rs";
 pub const UI_SECTION_DELAY_CONFIG: &str = "Delay Configuration";
 pub const UI_SECTION_CLICK_CONFIG: &str = "Click Configuration";
 pub const UI_SECTION_HOTKEY_CONFIG: &str = "Hotkey Configuration";
+
+pub const COLOR_BACKGROUND: [f32; 3] = [0.10, 0.11, 0.13];
+pub const COLOR_SURFACE: [f32; 3] = [0.15, 0.16, 0.18];
+pub const COLOR_ACCENT: [f32; 3] = [0.30, 0.55, 0.95];
+pub const COLOR_TEXT: [f32; 3] = [0.95, 0.95, 0.96];
 
 pub const COLOR_SUCCESS: [f32; 3] = [0.0, 0.8, 0.0]; // Green
 pub const COLOR_ERROR: [f32; 3] = [0.9, 0.2, 0.2]; // Red
